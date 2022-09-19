@@ -213,4 +213,11 @@ a{
         width: 70%;
         font-size: 1rem;
     }
+    .itachi-name {
+        width: 60%;
+        /* bottom: 30px;
+        left: 15px; */
+       font-size: 1.1rem;
+
+    }
 }
