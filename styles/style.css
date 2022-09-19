@@ -94,30 +94,11 @@ a:hover {
     color: #2f4f4f;
     scale: 1.19;
 }
-
-@media screen and (max-width: 600px) {
-    .container {
-        width: 80%;
-    }
-
-    .quote-text {
-        font-size: 18px;
-    }
-
-    .quotes {
-        width: 100%;
-    }
-
-    .controls {
-        width: 100%;
-    }
-
-    .controls button,
-    a {
-        width: 70%;
-        font-size: 1rem;
-    }
+a{
+    text-decoration: none;
 }
+
+
 
 .itachi-name {
     /* border: 1px solid; */
@@ -207,5 +188,29 @@ a:hover {
     20% {
         transform: scaleY(1.0);
         -webkit-transform: scaleY(1.0);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 80%;
+    }
+
+    .quote-text {
+        font-size: 18px;
+    }
+
+    .quotes {
+        width: 100%;
+    }
+
+    .controls {
+        width: 100%;
+    }
+
+    .controls button,
+    a {
+        width: 70%;
+        font-size: 1rem;
     }
 }
