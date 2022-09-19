@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Quotes</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="shortcut icon" href="1.png" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Random Itachi Quotes</h1>
+        </header>
+        <section class="quotes">
+            <div class="quote-text" id="js-quote-text"></div>
+            <p class="itachi-name">- Itachi Uchiha, 'Naruto'.</p>
+        </section>
+
+        <section class="controls">
+            <button type="button" class="btn new-quote" id="post-quote">
+                Generate a new quote
+            </button>
+            <a class="btn tweet" id="tweet-quote" target="_blank">Tweet it!</a>
+        </section>
+    </div>
+
+    <div class="spinner hidden">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
